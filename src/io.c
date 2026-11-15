@@ -32,6 +32,9 @@
 #ifdef __APPLE__
 #include <sys/time.h>
 #endif
+#ifdef __linux__
+#include <sys/time.h>
+#endif
 #include <stdio.h>
 
 #include "VirtualT.h"

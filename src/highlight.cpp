@@ -363,7 +363,8 @@ void style_parse(const char *text, char *style, int length)
         		current = 'H';
       		} 
 
-			else if (!last && /*islower(*text) && */ text > 0)// && 
+			//else if (!last && /*islower(*text) && */ text > 0)// && 
+ 			else if (!last && /*islower(*text) && */ text != NULL)// &&
 //				!(isalnum(*(text-1)) || *(text-1)=='_')) 
 			{
         		// Might be a keyword...

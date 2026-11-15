@@ -118,7 +118,7 @@ typedef struct watchtable_colors
 } watchtable_color_t;
 
 #define		VT_WATCH_TABLE_HDR_HEIGHT  20
-#define		VT_WATCH_TABLE_COL_COUNT	5
+#define		VT_WATCH_TABLE_COL_COUNT	6
 
 class VT_Watch_Table : public Fl_Widget
 {

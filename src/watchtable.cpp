@@ -27,6 +27,10 @@
  * SUCH DAMAGE.
  */
 
+#if defined(__linux__) || defined(__APPLE__)
+#include <stdlib.h>
+#endif
+
 #include <FL/Fl.H>
 #include <FL/fl_draw.H>
 #include <FL/Fl_Window.H>
